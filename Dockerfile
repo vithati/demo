@@ -2,7 +2,7 @@ FROM golang:rc-alpine
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app
-RUN go get -d
+#RUN go get -d
 RUN go build -o main . 
 RUN echo "Hello-world" 
 CMD ["/app/main"]
