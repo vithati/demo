@@ -24,5 +24,5 @@ FROM ubuntu
 #RUN go get -d
 #RUN go build -o main . 
 #RUN echo "Hello-world" 
-CMD ["sleep 360"]
+CMD ["sleep", "120"]
 EXPOSE 80
