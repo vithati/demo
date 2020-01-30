@@ -19,6 +19,7 @@ variables:
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
+  system.debug: true
   
 
 stages:
